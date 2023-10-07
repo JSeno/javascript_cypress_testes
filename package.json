@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cypress": "^13.3.0"
+  },
+  "scripts": {
+    "test-run": "cypress run --spec 'cypress/e2e/**/*'",
+    "test-open": "cypress open"
+  }
+}
